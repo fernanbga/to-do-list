@@ -1,0 +1,20 @@
+footer {
+  background: $secondary-color;
+  text-align: center;
+  padding: 1.2rem 1rem;
+  margin-top: 2rem;
+  border-radius: 0 0 $border-radius $border-radius;
+  box-shadow: 0 -2px 18px rgba(255,152,0,0.15);
+  position: relative;
+  z-index: 2;
+
+  p {
+    color: $primary-color;
+    font-size: 1.11rem;
+    margin: 0;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    text-shadow: 0 1px 8px #111, 0 0 10px $primary-color;
+    user-select: none;
+  }
+}

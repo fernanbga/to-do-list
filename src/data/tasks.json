@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Study React",
+    "desc": "Review hooks and componentization",
+    "isDone": false,
+    "_id": "1"
+  },
+  {
+    "title": "Prepare submission",
+    "desc": "Upload project to Netlify and check requirements",
+    "isDone": false,
+    "_id": "2"
+  },
+  {
+    "title": "Rest",
+    "desc": "Take a break after submitting",
+    "isDone": false,
+    "_id": "3"
+  },
+  {
+    "title": "Review CSS",
+    "desc": "Apply styles and test responsive",
+    "isDone": false,
+    "_id": "4"
+  },
+  {
+    "title": "Ask for feedback",
+    "desc": "Share app with classmates and ask for opinions",
+    "isDone": false,
+    "_id": "5"
+  }
+]
