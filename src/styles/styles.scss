@@ -1,0 +1,30 @@
+@import 'utils/variables';
+@import 'components/Header';
+@import 'components/Form';
+@import 'components/Main';
+@import 'components/List';
+@import 'components/Card';
+@import 'components/Footer';
+
+body, #root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: $background-color;
+  color: $text-color;
+  font-family: 'Inter', 'Roboto', Arial, sans-serif;
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  letter-spacing: 0.01em;
+  font-size: 17px;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}

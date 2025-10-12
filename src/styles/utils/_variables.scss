@@ -1,0 +1,16 @@
+// Variables globales para modo oscuro y diseño moderno
+
+$primary-color: #FF9800; // naranja vibrante
+$primary-gradient: linear-gradient(90deg, #FF9800 0%, #FFB74D 100%);
+$background-color: #111; // fondo principal negro
+$card-background: rgba(34, 34, 34, 0.85); // glassmorphism
+$card-blur: 16px;
+$secondary-color: #222;
+$text-color: #fff;
+$border-color: rgba(255, 255, 255, 0.08);
+$border-radius: 18px; // más grande para look moderno
+$shadow: 0 8px 32px 0 rgba(0,0,0,0.45);
+$input-bg: rgba(60,60,60,0.7);
+$input-border: rgba(255,255,255,0.12);
+$input-placeholder: #bbb;
+$transition: all 0.25s cubic-bezier(.4,0,.2,1);
