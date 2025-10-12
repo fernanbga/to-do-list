@@ -89,6 +89,11 @@ todo-list-modern/
 - Mobile‑first layout, progressive media queries
 - BEM‑style class naming (optional)
 
+## Screenshots
+
+![Desktop](/public/TODOdesktop1.png)
+![Mobile](/public/TODOmobile.png)
+
 ## ⚙️ Installation & Local Usage
 
 1️⃣ Clone the repository
