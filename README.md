@@ -138,7 +138,8 @@ This is a static SPA. Deploy to [Vercel](https://vercel.com/), [Netlify](https:/
 
 ## 🟢 Live Demo
 
-Coming soon! (Deploy to Netlify or Vercel and add your link here)
+Visit the live app:  
+[https://lambent-daffodil-2ec290.netlify.app/](https://lambent-daffodil-2ec290.netlify.app/)
 
 ## 📊 Roadmap
 
