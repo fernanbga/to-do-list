@@ -1,3 +1,4 @@
+![LOGO](/public/TODO.png)
 # 📝 Todo List Modern App
 
 Todo List Modern App is a React + Vite Single Page Application for managing your tasks with a clean, mobile-first, and modern UI. It uses SASS with partials and variables for easy custom theming. The app features glassmorphism, deep shadows, and a color palette of black, orange, and white.
