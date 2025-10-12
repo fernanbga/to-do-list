@@ -1,0 +1,78 @@
+article {
+  background: $card-background;
+  border-radius: $border-radius;
+  box-shadow: $shadow, 0 1.5px 8px rgba(255,152,0,0.14);
+  border: 1.5px solid $border-color;
+  padding: 1.3rem 1.1rem 1.2rem 1.1rem;
+  width: 100%;
+  min-width: 0;
+  margin-bottom: 0;
+  backdrop-filter: blur($card-blur);
+  transition: $transition;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  h3 {
+    margin: 0 0 0.6rem 0;
+    color: $text-color;
+    font-size: 1.32rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    word-break: break-word;
+    transition: $transition;
+    text-shadow: 0 1px 8px #111, 0 0 10px $primary-color;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    color: $text-color;
+    font-size: 1.08rem;
+    word-break: break-word;
+    opacity: 0.97;
+    text-shadow: 0 1px 6px #111;
+    transition: $transition;
+  }
+
+  button {
+    background: $primary-gradient;
+    color: $text-color;
+    border: none;
+    border-radius: $border-radius;
+    padding: 0.7rem 1.7rem;
+    cursor: pointer;
+    font-size: 1.07rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    box-shadow: 0 2px 12px rgba(255,152,0,0.12);
+    transition: $transition;
+
+    &:hover {
+      background: linear-gradient(90deg,#FFA726 0%,#FF9800 100%);
+      box-shadow: 0 3px 18px rgba(255,152,0,0.22);
+      transform: scale(1.04);
+    }
+    &:active {
+      transform: scale(0.96);
+    }
+  }
+
+  // Tachado moderno si la tarea está hecha
+  .done {
+    text-decoration: line-through wavy $primary-color;
+    opacity: 0.7;
+    filter: blur(0.5px);
+  }
+}
+
+// Desktop
+@media (min-width: 600px) {
+  article {
+    min-width: 220px;
+    max-width: 320px;
+    margin-bottom: 0;
+  }
+}
