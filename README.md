@@ -139,7 +139,7 @@ This is a static SPA. Deploy to [Vercel](https://vercel.com/), [Netlify](https:/
 ## 🟢 Live Demo
 
 Visit the live app:  
-[https://lambent-daffodil-2ec290.netlify.app/](https://lambent-daffodil-2ec290.netlify.app/)
+[https://to-do-list-nan.netlify.app/](https://to-do-list-nan.netlify.app/)
 
 ## 📊 Roadmap
 
