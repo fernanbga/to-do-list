@@ -15,6 +15,32 @@ article {
   flex-direction: column;
   align-items: stretch;
 
+  // Edit form inside the card
+  form {
+    /* Override global form styles so it stays inside the card */
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    position: static;
+    z-index: auto;
+    display: flex;
+    flex-direction: column; // keep stacked on desktop too
+    gap: 0.6rem;
+    align-items: stretch;
+
+    // Inputs inside card
+    input {
+      width: 100%;
+    }
+
+    // Buttons inside edit form reuse card button styles
+    button {
+      align-self: flex-start;
+    }
+  }
+
   h3 {
     margin: 0 0 0.6rem 0;
     color: $text-color;
